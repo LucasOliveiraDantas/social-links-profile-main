@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 8%);
+    height: 100%;
+}
+
+.ct-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    margin: 7.3rem 1.5rem ;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    width: 100%;
+    max-width: 380px;
+}
+
+#img-perfil{
+    width: 88px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.info-user{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1.8rem;
+    row-gap: 0.5rem;
+}
+.name-user{
+    font-size: 25px;
+    color: white;
+}
+.loct-user{
+    color: hsl(75, 94%, 57%);
+    font-size: 14.5px;
+    font-weight: 600;
+}
+
+.desc-user{
+    font-size: 14px;
+    color: white;
+    margin-top: 1.7rem;
+}
+
+.user-list-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 1.5rem;
+    row-gap: 1rem;
+
+}
+.link-user{
+    background-color: hsl(0, 0%, 20%);
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 0.88rem 0rem;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.link-user:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
